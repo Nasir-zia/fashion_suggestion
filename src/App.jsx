@@ -1,11 +1,11 @@
-
-
+import SplashScreen from "./splash_screen/splashscreen"
 function App() {
 
   return (
 
 <div>
-  <h1 className=''>Hello Madar fackers </h1>
+  <SplashScreen />
+  
 </div>
   )
 }

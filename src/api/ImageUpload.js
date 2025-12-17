@@ -210,3 +210,4 @@ export const getDemoAnalysisData = () => {
         brown: 78.9, 
         gray: 2.8 
       }
+    }}}

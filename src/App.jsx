@@ -1,13 +1,3 @@
-// import { useAuth } from "./hooks/useAuth";
-// import SplashScreen from "./splash_screen/splashscreen";
-// function App() {
-//   const { user, loading } = useAuth();
-
-//   if (loading) return <p>Loading...</p>;
-//   return <div>{user ? <SplashScreen /> : <p>Not logged in</p>}</div>;
-// }
-
-// export default App;
 
 import { Routes, Route, Navigate } from "react-router-dom";
 import SplashScreen from "./splash_screen/splashscreen";

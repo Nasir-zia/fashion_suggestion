@@ -1,13 +1,10 @@
-import SplashScreen from "./splash_screen/splashscreen"
+import SplashScreen from "./splash_screen/splashscreen";
 function App() {
-
   return (
-
-<div>
-  <SplashScreen />
-  
-</div>
-  )
+    <div>
+      <SplashScreen />
+    </div>
+  );
 }
 
-export default App
+export default App;

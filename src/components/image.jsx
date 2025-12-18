@@ -51,7 +51,7 @@ export default function ImageUpload() {
       formData.append("image", imageFile);
 
       const res = await axios.post(
-        "http://localhost:5000/api/analyze",
+        "http://fashion-backend-pink.vercel.app/api/analyze",
         formData
       );
       setData(res.data);

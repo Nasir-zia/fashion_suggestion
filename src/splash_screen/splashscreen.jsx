@@ -24,6 +24,14 @@ export default function SplashScreen() {
     navigate("/change-password");
   };
 
+  const handleGetStarted = () => {
+    if (user) {
+      navigate("/image-upload");
+    } else {
+      navigate("/login");
+    }
+  };
+
   // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -89,7 +97,10 @@ export default function SplashScreen() {
           you look confident every day with perfectly matched fashion choices.
         </p>
 
-        <button className="w-fit bg-[#1f3d36] text-white font-semibold px-10 py-3 mt-4 rounded-full hover:opacity-90 transition">
+        <button
+          onClick={handleGetStarted}
+          className="w-fit bg-[#1f3d36] text-white font-semibold px-10 py-3 mt-4 rounded-full hover:opacity-90 transition"
+        >
           Get Started
         </button>
       </div>
